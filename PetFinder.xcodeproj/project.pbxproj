@@ -17,6 +17,22 @@
 		4C8A8D0B2AC05EAE00ECF377 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D0A2AC05EAE00ECF377 /* Alamofire */; };
 		4C8A8D0E2AC05EBA00ECF377 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D0D2AC05EBA00ECF377 /* SnapKit */; };
 		4C8A8D112AC05EC700ECF377 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D102AC05EC700ECF377 /* Kingfisher */; };
+		4C8A8D142AC0627A00ECF377 /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D132AC0627A00ECF377 /* ErrorCode.swift */; };
+		4C8A8D162AC063AE00ECF377 /* PetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D152AC063AE00ECF377 /* PetRouter.swift */; };
+		4C8A8D1A2AC1223700ECF377 /* RegionCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D192AC1223700ECF377 /* RegionCode.swift */; };
+		4C8A8D1C2AC1666100ECF377 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D1B2AC1666100ECF377 /* Network.swift */; };
+		4C8A8D1E2AC1672600ECF377 /* PetStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D1D2AC1672600ECF377 /* PetStruct.swift */; };
+		4C8A8D232AC2B55E00ECF377 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D222AC2B55E00ECF377 /* ReusableProtocol.swift */; };
+		4C8A8D252AC2B58F00ECF377 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D242AC2B58F00ECF377 /* BaseViewController.swift */; };
+		4C8A8D2B2AC2B5E500ECF377 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D2A2AC2B5E500ECF377 /* Realm */; };
+		4C8A8D2D2AC2B5E500ECF377 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D2C2AC2B5E500ECF377 /* RealmSwift */; };
+		4C8A8D2F2AC2B60200ECF377 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D2E2AC2B60200ECF377 /* BaseView.swift */; };
+		4C8A8D312AC2B62500ECF377 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D302AC2B62500ECF377 /* BaseCollectionViewCell.swift */; };
+		4C8A8D332AC2B63800ECF377 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D322AC2B63800ECF377 /* BaseTableViewCell.swift */; };
+		4C8A8D362AC2B68900ECF377 /* PetTableRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D352AC2B68900ECF377 /* PetTableRepository.swift */; };
+		4C8A8D392AC2B6AD00ECF377 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D382AC2B6AD00ECF377 /* Toast */; };
+		4C8A8D3B2AC2B6E400ECF377 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */; };
+		4C8A8D402AC2BA3A00ECF377 /* jejudoldam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +45,19 @@
 		4C8A8CFF2AC058FD00ECF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8A8D052AC05B1500ECF377 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4C8A8D072AC05B5000ECF377 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		4C8A8D132AC0627A00ECF377 /* ErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
+		4C8A8D152AC063AE00ECF377 /* PetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRouter.swift; sourceTree = "<group>"; };
+		4C8A8D192AC1223700ECF377 /* RegionCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionCode.swift; sourceTree = "<group>"; };
+		4C8A8D1B2AC1666100ECF377 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4C8A8D1D2AC1672600ECF377 /* PetStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStruct.swift; sourceTree = "<group>"; };
+		4C8A8D222AC2B55E00ECF377 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		4C8A8D242AC2B58F00ECF377 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4C8A8D2E2AC2B60200ECF377 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		4C8A8D302AC2B62500ECF377 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C8A8D322AC2B63800ECF377 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		4C8A8D352AC2B68900ECF377 /* PetTableRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableRepository.swift; sourceTree = "<group>"; };
+		4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jejudoldam.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,8 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8A8D392AC2B6AD00ECF377 /* Toast in Frameworks */,
 				4C8A8D112AC05EC700ECF377 /* Kingfisher in Frameworks */,
 				4C8A8D0B2AC05EAE00ECF377 /* Alamofire in Frameworks */,
+				4C8A8D2B2AC2B5E500ECF377 /* Realm in Frameworks */,
+				4C8A8D2D2AC2B5E500ECF377 /* RealmSwift in Frameworks */,
 				4C8A8D0E2AC05EBA00ECF377 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +96,9 @@
 		4C8A8CF02AC058FB00ECF377 /* PetFinder */ = {
 			isa = PBXGroup;
 			children = (
+				4C8A8D3C2AC2B98800ECF377 /* Font */,
+				4C8A8D342AC2B66900ECF377 /* Realm */,
+				4C8A8D212AC2B54600ECF377 /* Base */,
 				4C8A8D122AC05FEE00ECF377 /* Network */,
 				4C8A8CF52AC058FB00ECF377 /* ViewController.swift */,
 				4C8A8CFA2AC058FD00ECF377 /* Assets.xcassets */,
@@ -80,8 +115,42 @@
 			isa = PBXGroup;
 			children = (
 				4C8A8D072AC05B5000ECF377 /* APIKey.swift */,
+				4C8A8D1D2AC1672600ECF377 /* PetStruct.swift */,
+				4C8A8D192AC1223700ECF377 /* RegionCode.swift */,
+				4C8A8D132AC0627A00ECF377 /* ErrorCode.swift */,
+				4C8A8D152AC063AE00ECF377 /* PetRouter.swift */,
+				4C8A8D1B2AC1666100ECF377 /* Network.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		4C8A8D212AC2B54600ECF377 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A8D222AC2B55E00ECF377 /* ReusableProtocol.swift */,
+				4C8A8D242AC2B58F00ECF377 /* BaseViewController.swift */,
+				4C8A8D2E2AC2B60200ECF377 /* BaseView.swift */,
+				4C8A8D302AC2B62500ECF377 /* BaseCollectionViewCell.swift */,
+				4C8A8D322AC2B63800ECF377 /* BaseTableViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4C8A8D342AC2B66900ECF377 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A8D352AC2B68900ECF377 /* PetTableRepository.swift */,
+				4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		4C8A8D3C2AC2B98800ECF377 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +173,9 @@
 				4C8A8D0A2AC05EAE00ECF377 /* Alamofire */,
 				4C8A8D0D2AC05EBA00ECF377 /* SnapKit */,
 				4C8A8D102AC05EC700ECF377 /* Kingfisher */,
+				4C8A8D2A2AC2B5E500ECF377 /* Realm */,
+				4C8A8D2C2AC2B5E500ECF377 /* RealmSwift */,
+				4C8A8D382AC2B6AD00ECF377 /* Toast */,
 			);
 			productName = PetFinder;
 			productReference = 4C8A8CEE2AC058FB00ECF377 /* PetFinder.app */;
@@ -137,6 +209,8 @@
 				4C8A8D092AC05EAE00ECF377 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				4C8A8D0C2AC05EBA00ECF377 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				4C8A8D0F2AC05EC700ECF377 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				4C8A8D292AC2B5E500ECF377 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				4C8A8D372AC2B6AD00ECF377 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = 4C8A8CEF2AC058FB00ECF377 /* Products */;
 			projectDirPath = "";
@@ -154,6 +228,7 @@
 			files = (
 				4C8A8D062AC05B1500ECF377 /* .gitignore in Resources */,
 				4C8A8CFE2AC058FD00ECF377 /* LaunchScreen.storyboard in Resources */,
+				4C8A8D402AC2BA3A00ECF377 /* jejudoldam.otf in Resources */,
 				4C8A8CFB2AC058FD00ECF377 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,10 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8A8D142AC0627A00ECF377 /* ErrorCode.swift in Sources */,
 				4C8A8CF62AC058FB00ECF377 /* ViewController.swift in Sources */,
+				4C8A8D252AC2B58F00ECF377 /* BaseViewController.swift in Sources */,
+				4C8A8D362AC2B68900ECF377 /* PetTableRepository.swift in Sources */,
+				4C8A8D2F2AC2B60200ECF377 /* BaseView.swift in Sources */,
+				4C8A8D332AC2B63800ECF377 /* BaseTableViewCell.swift in Sources */,
+				4C8A8D232AC2B55E00ECF377 /* ReusableProtocol.swift in Sources */,
+				4C8A8D1C2AC1666100ECF377 /* Network.swift in Sources */,
 				4C8A8CF22AC058FB00ECF377 /* AppDelegate.swift in Sources */,
 				4C8A8D082AC05B5000ECF377 /* APIKey.swift in Sources */,
+				4C8A8D1E2AC1672600ECF377 /* PetStruct.swift in Sources */,
+				4C8A8D162AC063AE00ECF377 /* PetRouter.swift in Sources */,
 				4C8A8CF42AC058FB00ECF377 /* SceneDelegate.swift in Sources */,
+				4C8A8D3B2AC2B6E400ECF377 /* RealmModel.swift in Sources */,
+				4C8A8D312AC2B62500ECF377 /* BaseCollectionViewCell.swift in Sources */,
+				4C8A8D1A2AC1223700ECF377 /* RegionCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +489,22 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		4C8A8D292AC2B5E500ECF377 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4C8A8D372AC2B6AD00ECF377 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -419,6 +522,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4C8A8D0F2AC05EC700ECF377 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		4C8A8D2A2AC2B5E500ECF377 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C8A8D292AC2B5E500ECF377 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		4C8A8D2C2AC2B5E500ECF377 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C8A8D292AC2B5E500ECF377 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		4C8A8D382AC2B6AD00ECF377 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C8A8D372AC2B6AD00ECF377 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

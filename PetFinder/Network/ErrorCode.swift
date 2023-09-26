@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-enum SeSACError: Int, Error, LocalizedError {
+enum PetError: Int, Error, LocalizedError {
     
     case APPLICATION_ERROR = 1
     case HTTP_ERROR = 4
@@ -43,5 +43,6 @@ enum SeSACError: Int, Error, LocalizedError {
             return "기타에러"
         }
     }
+    
     
 }
