@@ -8,25 +8,32 @@
 import UIKit
 import RealmSwift
 
-final class FavoriteTable: Object {
+final class PetTable: Object {
     
-    @Persisted(primaryKey: true) var _id: ObjectId
-    @Persisted var mallName: String
-    @Persisted var title: String
-    @Persisted var price: String
+    @Persisted(primaryKey: true) var desertionNo: String
+    @Persisted var kind: String
+    @Persisted var sex: String
+    @Persisted var age: String
+    @Persisted var happenPlace: String
+    @Persisted var careNm: String
+    @Persisted var noticeSdt: String
+    @Persisted var noticeEdt: String
+    @Persisted var alertDt: String
     @Persisted var image: String
-    @Persisted var productId: String
-    @Persisted var favorite: Bool
 
-    
-    convenience init(mallName: String, title: String, price: String, image: String, id: String) {
+    convenience init(desertionNo: String, kind: String, sex: String, age: String, happenPlace: String, careNm: String, noticeSdt: String, noticeEdt: String, alertDt: String, image: String) {
         self.init()
-        self.mallName = mallName
-        self.title = title
-        self.price = price
+        self.desertionNo = desertionNo
+        self.kind = kind
+        self.sex = sex
+        self.age = age
+        self.happenPlace = happenPlace
+        self.careNm = careNm
+        self.noticeSdt = noticeSdt
+        self.noticeEdt = noticeEdt
+        self.alertDt = alertDt
         self.image = image
-        self.productId = id
-        self.favorite = true
     }
 
+    
 }
