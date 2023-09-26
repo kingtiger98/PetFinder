@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
 // 폰트
 // family: EF_제주돌담
@@ -18,9 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .white
-
-        
+        view.backgroundColor = UIColor(named: "BackgroundColor")
         
         Network.shared.requestConvertible(type: Pet.self, api: .petData(pageNo: "1", bgnde: "20230908", endde: "20230909", upkind: "417000", upr_cd: "6110000", neuter_yn: "Y")) { response in
             switch response {

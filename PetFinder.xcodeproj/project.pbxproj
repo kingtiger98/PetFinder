@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C8A8CF22AC058FB00ECF377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8CF12AC058FB00ECF377 /* AppDelegate.swift */; };
 		4C8A8CF42AC058FB00ECF377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8CF32AC058FB00ECF377 /* SceneDelegate.swift */; };
-		4C8A8CF62AC058FB00ECF377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8CF52AC058FB00ECF377 /* ViewController.swift */; };
+		4C8A8CF62AC058FB00ECF377 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8CF52AC058FB00ECF377 /* MainViewController.swift */; };
 		4C8A8CFB2AC058FD00ECF377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A8CFA2AC058FD00ECF377 /* Assets.xcassets */; };
 		4C8A8CFE2AC058FD00ECF377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A8CFC2AC058FD00ECF377 /* LaunchScreen.storyboard */; };
 		4C8A8D062AC05B1500ECF377 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A8D052AC05B1500ECF377 /* .gitignore */; };
@@ -33,13 +33,17 @@
 		4C8A8D392AC2B6AD00ECF377 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8A8D382AC2B6AD00ECF377 /* Toast */; };
 		4C8A8D3B2AC2B6E400ECF377 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */; };
 		4C8A8D402AC2BA3A00ECF377 /* jejudoldam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */; };
+		4C8A8D442AC2C85F00ECF377 /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D432AC2C85F00ECF377 /* TapBarController.swift */; };
+		4C8A8D472AC2CF5B00ECF377 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D462AC2CF5B00ECF377 /* Constant.swift */; };
+		4C8A8D492AC2D4C500ECF377 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */; };
+		4C8A8D4B2AC2FADD00ECF377 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D4A2AC2FADD00ECF377 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C8A8CEE2AC058FB00ECF377 /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8A8CF12AC058FB00ECF377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8A8CF32AC058FB00ECF377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C8A8CF52AC058FB00ECF377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C8A8CF52AC058FB00ECF377 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4C8A8CFA2AC058FD00ECF377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C8A8CFD2AC058FD00ECF377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8A8CFF2AC058FD00ECF377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +62,10 @@
 		4C8A8D352AC2B68900ECF377 /* PetTableRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableRepository.swift; sourceTree = "<group>"; };
 		4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
 		4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jejudoldam.otf; sourceTree = "<group>"; };
+		4C8A8D432AC2C85F00ECF377 /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
+		4C8A8D462AC2CF5B00ECF377 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		4C8A8D4A2AC2FADD00ECF377 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,13 @@
 		4C8A8CF02AC058FB00ECF377 /* PetFinder */ = {
 			isa = PBXGroup;
 			children = (
+				4C8A8D422AC2C85000ECF377 /* TapBar */,
+				4C8A8D412AC2C81000ECF377 /* Scene */,
 				4C8A8D3C2AC2B98800ECF377 /* Font */,
 				4C8A8D342AC2B66900ECF377 /* Realm */,
+				4C8A8D452AC2CF4300ECF377 /* Constant */,
 				4C8A8D212AC2B54600ECF377 /* Base */,
 				4C8A8D122AC05FEE00ECF377 /* Network */,
-				4C8A8CF52AC058FB00ECF377 /* ViewController.swift */,
 				4C8A8CFA2AC058FD00ECF377 /* Assets.xcassets */,
 				4C8A8CFC2AC058FD00ECF377 /* LaunchScreen.storyboard */,
 				4C8A8CFF2AC058FD00ECF377 /* Info.plist */,
@@ -151,6 +161,32 @@
 				4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		4C8A8D412AC2C81000ECF377 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A8CF52AC058FB00ECF377 /* MainViewController.swift */,
+				4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */,
+				4C8A8D4A2AC2FADD00ECF377 /* TodayViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4C8A8D422AC2C85000ECF377 /* TapBar */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A8D432AC2C85F00ECF377 /* TapBarController.swift */,
+			);
+			path = TapBar;
+			sourceTree = "<group>";
+		};
+		4C8A8D452AC2CF4300ECF377 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4C8A8D462AC2CF5B00ECF377 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8A8D142AC0627A00ECF377 /* ErrorCode.swift in Sources */,
-				4C8A8CF62AC058FB00ECF377 /* ViewController.swift in Sources */,
+				4C8A8CF62AC058FB00ECF377 /* MainViewController.swift in Sources */,
 				4C8A8D252AC2B58F00ECF377 /* BaseViewController.swift in Sources */,
 				4C8A8D362AC2B68900ECF377 /* PetTableRepository.swift in Sources */,
 				4C8A8D2F2AC2B60200ECF377 /* BaseView.swift in Sources */,
@@ -250,8 +286,12 @@
 				4C8A8D1C2AC1666100ECF377 /* Network.swift in Sources */,
 				4C8A8CF22AC058FB00ECF377 /* AppDelegate.swift in Sources */,
 				4C8A8D082AC05B5000ECF377 /* APIKey.swift in Sources */,
+				4C8A8D442AC2C85F00ECF377 /* TapBarController.swift in Sources */,
+				4C8A8D472AC2CF5B00ECF377 /* Constant.swift in Sources */,
+				4C8A8D4B2AC2FADD00ECF377 /* TodayViewController.swift in Sources */,
 				4C8A8D1E2AC1672600ECF377 /* PetStruct.swift in Sources */,
 				4C8A8D162AC063AE00ECF377 /* PetRouter.swift in Sources */,
+				4C8A8D492AC2D4C500ECF377 /* FavoriteViewController.swift in Sources */,
 				4C8A8CF42AC058FB00ECF377 /* SceneDelegate.swift in Sources */,
 				4C8A8D3B2AC2B6E400ECF377 /* RealmModel.swift in Sources */,
 				4C8A8D312AC2B62500ECF377 /* BaseCollectionViewCell.swift in Sources */,
