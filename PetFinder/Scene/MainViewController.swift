@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import Alamofire
 
-class MainViewController: UIViewController {
+class MainViewController: BaseViewController {
 
 // 폰트
 // family: EF_제주돌담
@@ -19,19 +20,31 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(named: "BackgroundColor")
+
+        // 잘됨
+//        Network.shared.request(type: Pet.self, api: .recent(page: 2)) { response in
+//            switch response {
+//            case .success(let success):
+//                dump(success)
+//            case .failure(let failure):
+//                print(failure.errorDescription!)
+//            }
+//        }
         
-        Network.shared.requestConvertible(type: Pet.self, api: .petData(pageNo: "1", bgnde: "20230908", endde: "20230909", upkind: "417000", upr_cd: "6110000", neuter_yn: "Y")) { response in
+       
+        Network.shared.request(type: Pet.self, api: .conditional(page: 1, kind: "417000", neuter: "Y", city: Region.seoul.code, bgnde: "20220101", endde: "20220102")) { response in
             switch response {
             case .success(let success):
                 dump(success)
             case .failure(let failure):
-                print(failure)
+                print(failure.errorDescription!)
             }
-            
+        }
+    
         }
         
     }
 
 
-}
+
 

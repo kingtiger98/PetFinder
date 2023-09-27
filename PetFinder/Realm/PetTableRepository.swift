@@ -59,7 +59,7 @@ final class FavoriteTableRepository{
                 // realm.add(item, update: .modified)
                 
                 // 2. 특정 컬럼 값만 수정 할 때 사용합니다.
-                realm.create(PetTable.self, value: ["_id": id, "memo":  memo], update: .modified)
+                // realm.create(PetTable.self, value: ["_id": id, "memo":  memo], update: .modified)
             }
             
         } catch {

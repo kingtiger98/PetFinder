@@ -34,9 +34,10 @@
 		4C8A8D3B2AC2B6E400ECF377 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */; };
 		4C8A8D402AC2BA3A00ECF377 /* jejudoldam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */; };
 		4C8A8D442AC2C85F00ECF377 /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D432AC2C85F00ECF377 /* TapBarController.swift */; };
-		4C8A8D472AC2CF5B00ECF377 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D462AC2CF5B00ECF377 /* Constant.swift */; };
 		4C8A8D492AC2D4C500ECF377 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */; };
 		4C8A8D4B2AC2FADD00ECF377 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A8D4A2AC2FADD00ECF377 /* TodayViewController.swift */; };
+		4CA05F422AC48053005BF4E3 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA05F412AC48053005BF4E3 /* Font.swift */; };
+		4CA05F442AC4891B005BF4E3 /* APIManagerPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA05F432AC4891B005BF4E3 /* APIManagerPet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,9 +64,10 @@
 		4C8A8D3A2AC2B6E300ECF377 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
 		4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jejudoldam.otf; sourceTree = "<group>"; };
 		4C8A8D432AC2C85F00ECF377 /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
-		4C8A8D462AC2CF5B00ECF377 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		4C8A8D4A2AC2FADD00ECF377 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4CA05F412AC48053005BF4E3 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		4CA05F432AC4891B005BF4E3 /* APIManagerPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerPet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,6 @@
 				4C8A8D412AC2C81000ECF377 /* Scene */,
 				4C8A8D3C2AC2B98800ECF377 /* Font */,
 				4C8A8D342AC2B66900ECF377 /* Realm */,
-				4C8A8D452AC2CF4300ECF377 /* Constant */,
 				4C8A8D212AC2B54600ECF377 /* Base */,
 				4C8A8D122AC05FEE00ECF377 /* Network */,
 				4C8A8CFA2AC058FD00ECF377 /* Assets.xcassets */,
@@ -128,8 +129,9 @@
 				4C8A8D1D2AC1672600ECF377 /* PetStruct.swift */,
 				4C8A8D192AC1223700ECF377 /* RegionCode.swift */,
 				4C8A8D132AC0627A00ECF377 /* ErrorCode.swift */,
-				4C8A8D152AC063AE00ECF377 /* PetRouter.swift */,
 				4C8A8D1B2AC1666100ECF377 /* Network.swift */,
+				4CA05F432AC4891B005BF4E3 /* APIManagerPet.swift */,
+				4C8A8D152AC063AE00ECF377 /* PetRouter.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -158,6 +160,7 @@
 		4C8A8D3C2AC2B98800ECF377 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				4CA05F412AC48053005BF4E3 /* Font.swift */,
 				4C8A8D3F2AC2BA3A00ECF377 /* jejudoldam.otf */,
 			);
 			path = Font;
@@ -167,8 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				4C8A8CF52AC058FB00ECF377 /* MainViewController.swift */,
-				4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */,
 				4C8A8D4A2AC2FADD00ECF377 /* TodayViewController.swift */,
+				4C8A8D482AC2D4C500ECF377 /* FavoriteViewController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -179,14 +182,6 @@
 				4C8A8D432AC2C85F00ECF377 /* TapBarController.swift */,
 			);
 			path = TapBar;
-			sourceTree = "<group>";
-		};
-		4C8A8D452AC2CF4300ECF377 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				4C8A8D462AC2CF5B00ECF377 /* Constant.swift */,
-			);
-			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8A8D142AC0627A00ECF377 /* ErrorCode.swift in Sources */,
+				4CA05F442AC4891B005BF4E3 /* APIManagerPet.swift in Sources */,
 				4C8A8CF62AC058FB00ECF377 /* MainViewController.swift in Sources */,
 				4C8A8D252AC2B58F00ECF377 /* BaseViewController.swift in Sources */,
 				4C8A8D362AC2B68900ECF377 /* PetTableRepository.swift in Sources */,
@@ -287,8 +283,8 @@
 				4C8A8CF22AC058FB00ECF377 /* AppDelegate.swift in Sources */,
 				4C8A8D082AC05B5000ECF377 /* APIKey.swift in Sources */,
 				4C8A8D442AC2C85F00ECF377 /* TapBarController.swift in Sources */,
-				4C8A8D472AC2CF5B00ECF377 /* Constant.swift in Sources */,
 				4C8A8D4B2AC2FADD00ECF377 /* TodayViewController.swift in Sources */,
+				4CA05F422AC48053005BF4E3 /* Font.swift in Sources */,
 				4C8A8D1E2AC1672600ECF377 /* PetStruct.swift in Sources */,
 				4C8A8D162AC063AE00ECF377 /* PetRouter.swift in Sources */,
 				4C8A8D492AC2D4C500ECF377 /* FavoriteViewController.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum RegionCode: String {
+enum Region: String {
     case seoul = "서울특별시"
     case busan = "부산광역시"
     case daegu = "대구광역시"
@@ -26,7 +26,7 @@ enum RegionCode: String {
     case gyeongsangSouth = "경상남도"
     case jeju = "제주특별자치도"
 
-    var regionCode: String {
+    var code: String {
         switch self {
         case .seoul: return "6110000"
         case .busan: return "6260000"

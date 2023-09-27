@@ -8,8 +8,7 @@
 import Foundation
 import Alamofire
 
-// http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=egIoKTYvPM9CAkBDsi%2BtZaPC777DJIE2Qf5FloixHUDVo7LMuX3sF%2BGWEU9XL2I2NcJ8YFasF%2FNKyb3fe6YO7Q%3D%3D
-
+// 일단 보류중
 enum Router: URLRequestConvertible {
     
     case petData(
@@ -20,14 +19,12 @@ enum Router: URLRequestConvertible {
         upr_cd: String,
         neuter_yn: String
     )
-   
-    
-    // http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=egIoKTYvPM9CAkBDsi%2BtZaPC777DJIE2Qf5FloixHUDVo7LMuX3sF%2BGWEU9XL2I2NcJ8YFasF%2FNKyb3fe6YO7Q%3D%3D&numOfRows=20&_type=json &pageNo=2&upkind=417000&upr_cd&bgnde=20230606&endde=20230707&neuter_yn
     
     private var baseURL: URL{
-        return URL(string: "http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=\(APIKEY.key.rawValue)&numOfRows=20&_type=json")!
+        return URL(string: "http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?serviceKey=\(APIKEY.key.rawValue)&numOfRows=30&_type=json")!
     }
     
+    // 여기서 부터 문제야
     private var path: String{
         switch self {
         case .petData(let pageNo, let bgnde, let endde, let upkind, let upr_cd, let neuter_yn):
@@ -55,11 +52,11 @@ enum Router: URLRequestConvertible {
     
     
     func asURLRequest() throws -> URLRequest {
-        
+        print(baseURL)
         let url = baseURL.appendingPathComponent(path)
-        
+        print(url)
         var request = URLRequest(url: url)
-        
+        print(request)
         request.method = method
         
         request = try URLEncodedFormParameterEncoder(destination: .methodDependent).encode(query, into: request)
