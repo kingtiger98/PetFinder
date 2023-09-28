@@ -26,7 +26,6 @@ class BaseViewController: UIViewController {
     func setConstraints() {
         
         
-        
     }
     
     

@@ -40,7 +40,7 @@ class TapBarController: UITabBarController {
         tabBar.tintColor = UIColor(named: "Title")! // 원하는 아이콘 및 텍스트 색상으로 변경
         
         // 탭 바의 투명도 비활성화
-        tabBar.isTranslucent = true
+        tabBar.isTranslucent = false
 
         // 탭 바 컨트롤러에 네비게이션 컨트롤러 추가
         viewControllers = [firstNavigationController, thirdNavigationController, secondNavigationController]
@@ -66,6 +66,8 @@ class TapBarController: UITabBarController {
         // 네비게이션 바 타이틀에 폰트를 적용합니다.
         nav.navigationBar.titleTextAttributes = [.font: Font.title.key, .foregroundColor: UIColor(named: "Title")!]
         
+        nav.navigationBar.isTranslucent = false
+
     }
 
     

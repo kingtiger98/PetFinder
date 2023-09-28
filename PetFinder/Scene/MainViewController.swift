@@ -16,17 +16,12 @@ class MainViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.isTranslucent = false
+
         view.backgroundColor = UIColor(named: "BackgroundColor")
         
-       
-        Network.shared.request(type: Pet.self, api: .conditional(page: 1, kind: "417000", neuter: "Y", city: Region.seoul.code, bgnde: "20220101", endde: "20220102")) { response in
-            switch response {
-            case .success(let success):
-                dump(success)
-            case .failure(let failure):
-                print(failure.errorDescription!)
-            }
-        }
+
+
     
         }
         
