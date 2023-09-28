@@ -8,9 +8,7 @@
 import UIKit
 
 protocol ReusableProtocol{
-    
     static var identifier: String { get }
-    
 }
 
 extension UIViewController{

@@ -8,29 +8,29 @@
 import Foundation
 
 // MARK: - Welcome
-struct Pet: Codable {
+struct Pet: Codable, Hashable {
     let response: PetData?
 }
 
 // MARK: - Response
-struct PetData: Codable {
+struct PetData: Codable, Hashable {
     let header: Header?
     let body: Body?
 }
 
 // MARK: - Body
-struct Body: Codable {
+struct Body: Codable, Hashable {
     let items: Items?
     let numOfRows, pageNo, totalCount: Int?
 }
 
 // MARK: - Items
-struct Items: Codable {
+struct Items: Codable, Hashable {
     let item: [Item]?
 }
 
 // MARK: - Item
-struct Item: Codable {
+struct Item: Codable, Hashable {
     let desertionNo: String?
     let filename: String?
     let happenDt, happenPlace, kindCD, colorCD: String?
@@ -43,7 +43,11 @@ struct Item: Codable {
     let neuterYn: String?
     let specialMark, careNm, careTel, careAddr: String?
     let orgNm, chargeNm, officetel: String?
-
+    
+    let width: CGFloat = CGFloat.random(in: 50...150)
+    let height: CGFloat = CGFloat.random(in: 100...150)
+    
+    
     enum CodingKeys: String, CodingKey {
         case desertionNo, filename, happenDt, happenPlace
         case kindCD = "kindCd"
@@ -55,7 +59,7 @@ struct Item: Codable {
 }
 
 // MARK: - Header
-struct Header: Codable {
+struct Header: Codable, Hashable {
     let reqNo: Int?
     let resultCode, resultMsg: String?
 }

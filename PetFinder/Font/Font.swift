@@ -7,10 +7,6 @@
 
 import UIKit
 
-//let customFont = UIFont(name: "EF_jejudoldam", size: 18.0)
-//let customFont2 = UIFont(name: "EF_jejudoldam", size: 12.0)
-
-
 enum Font{
     
     case title

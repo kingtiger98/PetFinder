@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import Alamofire
-import RealmSwift
 
 class BaseViewController: UIViewController {
 
